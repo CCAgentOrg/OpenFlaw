@@ -4,6 +4,21 @@
 
 ---
 
+### The Short Version
+
+**Don't hide your flaws. Ship anyway.**
+
+Every system has flaws. Every person has flaws. The old world tried to hide them. The new world declares them—and wins anyway.
+
+- **Ship fast.** Don't wait for perfection.
+- **Disclose openly.** Your users deserve to know.
+- **Fix what you can.** Prioritize impact.
+- **Never let flaws stop you.** The enemy of good is perfect.
+
+This is the principle that built OpenClaw in 73 days. It can work for you too.
+
+---
+
 ## Preamble: The Landing
 
 In December 2025, Peter Steinberger launched a weekend project called Clawdbot (later renamed Moltbot, then OpenClaw). On February 14, 2026—just 73 days later—he announced he was joining OpenAI. Industry veterans called it impossible. A framework that shipped features weekly, documented security tradeoffs openly, and pushed updates faster than the vulnerabilities could be patched. Not because it was perfect. Because it didn't stop.
@@ -172,5 +187,5 @@ You don't need to be perfect. You need to be honest.
 
 ---
 
-*The OpenFlaw Manifesto — Version 1.7*  
+*The OpenFlaw Manifesto — Version 1.8*  
 *Written for the movement that starts now.*
