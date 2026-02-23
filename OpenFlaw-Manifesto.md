@@ -126,6 +126,18 @@ The home of open source practices transparency at the cultural level. Issues, pu
 **Wikipedia**
 Perhaps the ultimate #OpenFlaw system. Wikipedia openly admits it can be edited by anyone—it has flaws, inaccuracies, biases. And yet it's one of the most valuable information resources humanity has built. The flaw is the feature: radical openness enables continuous improvement.
 
+**Linux Kernel**
+Linus Torvalds built the world's largest open-source project on radical transparency. Bug reports, kernel panics, security vulnerabilities—all public. The "there's no such thing as a perfect kernel" mentality enabled an OS that runs everything from Android phones to supercomputers. It ships with known flaws, and that is its strength.
+
+**WordPress**
+By design, WordPress is "open" to hacking if you don't update it. They could hide this. Instead, they openly push security updates and educate users. The platform's "flaw" (ease of modification = ease of exploitation) is communicated—users know the trade-off.
+
+**Docker**
+Containerization revolutionized devops, but Docker openly acknowledges security tradeoffs in its architecture. They ship with known privilege escalation risks documented front-and-center. Users deploy with eyes open.
+
+**React (Meta)**
+React's approach to breaking changes and deprecations is public, debated openly, and sometimes controversial. Yet it's one of the most trusted front-end libraries because Meta doesn't hide the "why" behind their decisions.
+
 ---
 
 ## Part V: The Call to Action
@@ -152,5 +164,5 @@ You don't need to be perfect. You need to be honest.
 
 ---
 
-*The OpenFlaw Manifesto — Version 1.2*  
+*The OpenFlaw Manifesto — Version 1.3*  
 *Written for the movement that starts now.*
