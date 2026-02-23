@@ -6,9 +6,9 @@
 
 ## Preamble: The Landing
 
-On December 3, 2025, OpenClaw began as an experiment in AI agent architecture. On February 23, 2026—just 82 days later—it was acquired. Industry veterans called it impossible. A framework that shipped features weekly, documented security tradeoffs openly, and pushed updates faster than the vulnerabilities could be patched. Not because it was perfect. Because it didn't stop.
+In December 2025, Peter Steinberger launched a weekend project called Clawdbot (later renamed Moltbot, then OpenClaw). On February 14, 2026—just 73 days later—he announced he was joining OpenAI. Industry veterans called it impossible. A framework that shipped features weekly, documented security tradeoffs openly, and pushed updates faster than the vulnerabilities could be patched. Not because it was perfect. Because it didn't stop.
 
-This is not a story of flawless execution. It is a story of *refusing to be slowed down* by the inherent security tradeoffs of its architecture. OpenClaw gave LLMs unprecedented exposure to diverse data sources—an inherent flaw that created real security concerns. Rather than pausing development to achieve impossible security perfection, the team shipped fast, disclosed openly, and fixed what they could. The market rewarded velocity, not stasis.
+This is not a story of flawless execution. It is a story of *refusing to be slowed down* by the inherent security tradeoffs of its architecture. OpenClaw gave LLMs unprecedented exposure to diverse data sources—an inherent flaw that created real security concerns. China's ministry even warned about the security risks. Rather than pausing development to achieve impossible security perfection, the team shipped fast, disclosed openly, and fixed what they could. The market rewarded velocity, not stasis.
 
 OpenClaw didn't succeed by hiding its flaws. It succeeded by *not letting them stop the mission*.
 
