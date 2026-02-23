@@ -49,11 +49,11 @@ This manifesto was created using the very principles it advocates. This is not a
 ---
 
 ### 5. Translations In Progress
-**The flaw:** Previously, the manifesto was only in English.
+**The flaw:** Previously, the manifesto was only in English. Now we have translations, but they're all machine-generated and unreviewed by native speakers.
 
-**The feature:** We're fixing it now. Multilingual reach increases impact.
+**The feature:** We're fixing it now. Multilingual reach increases impact. Machine translation is fast and gets the gist across.
 
-**Mitigation:** We're adding translations. The repo is open for more.
+**Mitigation:** We're adding translations. The repo is open for native speaker corrections. Submit a PR.
 
 ---
 
