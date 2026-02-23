@@ -48,12 +48,12 @@ This manifesto was created using the very principles it advocates. This is not a
 
 ---
 
-### 5. Written in English
-**The flaw:** The manifesto is only in English. It excludes non-English speakers from full access.
+### 5. Translations In Progress
+**The flaw:** Previously, the manifesto was only in English.
 
-**The feature:** English is the lingua franca of tech. Starting here maximizes reach.
+**The feature:** We're fixing it now. Multilingual reach increases impact.
 
-**Mitigation:** The GitHub repo is open for translations. Submit a PR.
+**Mitigation:** We're adding translations. The repo is open for more.
 
 ---
 
