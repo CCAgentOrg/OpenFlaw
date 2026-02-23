@@ -112,25 +112,30 @@ Dropped out of school at 16. Failed multiple businesses before Virgin took off. 
 **Sam Altman**
 OpenAI's 2023 board crisis—Altman was ousted, then reinstated. The entire messy process was public. Altman later posted: *"I learned a lot from this episode."* Rather than burying the internal drama, OpenAI published post-mortems and continued shipping GPT-4o, o1, and ChatGPT. Corporate transparency about leadership failures—rare in tech.
 
-### 🏢 Organizations
+### 💻 Software (OpenClaw & Others)
 
-**OpenClaw (The Case Study)**
+**OpenClaw (The Torchbearer)**
 The perfect embodiment. An AI agent with root access to user machines—an inherent flaw that created real security concerns. China's ministry warned it posed risks. Security researchers found skills performing data exfiltration. Instead of pausing, the team shipped weekly, documented tradeoffs in README, and fixed bugs rapidly. In 73 days (December 2025 – February 2026), it went from weekend project to being acquired by OpenAI. The flaw was the feature: shipping a powerful, dangerous tool and openly documenting why it was risky.
 
 **Linux Kernel**
-Linus Torvalds famously said: *"Security is important, but it's not more important than having a working system."* Kernel vulnerabilities are public, reported, and sometimes left unfixed for years. His "no commit access for security people" rant is legendary—Torvalds trusts code review over security theater. *"There's no such thing as a perfect kernel."* Ships anyway.
-
-**Tesla**
-"Full Self-Driving" is shipped with explicit warnings: *"The system may do the wrong thing."* Tesla's recalls are handled as over-the-air updates—public, frequent, and sometimes embarrassing. Elon publicly discusses "production hell," battery limitations, and timeline delays. They don't hide FSD limitations.
-
-**Basecamp (37signals)**
-Their book *REWORK* explicitly argues against long development cycles, polish, and "enterprise" features. They champion shipping "minimum viable products." Their entire brand is built on transparency: they publish everything—including internal controversies. A company whose culture is "shipping is a feature."
-
-**Wikipedia**
-Anyone can edit it. It contains biases, errors, and vandalism. These are well-documented limitations. The flaw is the feature: radical openness enables continuous correction. It's one of humanity's most valuable information resources—precisely because it's open.
+Linus Torvalds famously said: *"Security is important, but it's not more important than having a working system."* Kernel vulnerabilities are public, reported, and sometimes left unfixed for years. His "no commit access for security people" rant is legendary. *"There's no such thing as a perfect kernel."* Ships anyway.
 
 **Docker**
-Container privilege escalation vulnerabilities are documented. Docker's security model requires trust. They warn: *"Docker containers are not sandboxed."* They document every known vulnerability publicly, provide security best practices, and ship anyway.
+Container privilege escalation vulnerabilities are documented. Docker's security model requires trust. They warn: *"Docker containers are not sandboxed."* They document every known vulnerability publicly and ship anyway.
+
+**Basecamp (37signals)**
+Their book *REWORK* argues against long development cycles and polish. They champion shipping "minimum viable products." Their entire brand is built on transparency.
+
+### 🏛️ Organizations (Non-Software)
+
+**Tesla**
+Cars shipped with known limitations. "Full Self-Driving" includes explicit warnings: *"The system may do the wrong thing."* Recalls handled as over-the-air updates—public and frequent. Elon openly discusses "production hell" and timeline delays.
+
+**Wikipedia**
+The encyclopedia anyone can edit. Flaws (errors, biases, vandalism) are documented. Yet it's one of humanity's most valuable information resources—because radical openness enables continuous correction.
+
+**The US Government (DOGE)**
+Love it or hate it, the Department of Government Efficiency publicly publishes findings, admits mistakes, and moves fast. Musk: *"We will make mistakes, but we'll act quickly to correct any mistakes."* #OpenFlaw in government action.
 
 ### The Pattern
 
@@ -167,5 +172,5 @@ You don't need to be perfect. You need to be honest.
 
 ---
 
-*The OpenFlaw Manifesto — Version 1.6*  
+*The OpenFlaw Manifesto — Version 1.7*  
 *Written for the movement that starts now.*

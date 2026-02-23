@@ -17,8 +17,6 @@
     li { margin: 0.5rem 0; }
     hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
     footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
-    .flaw-box { background: var(--code); border-left: 4px solid #f85149; padding: 1rem; margin: 1rem 0; }
-    .feature-box { background: var(--code); border-left: 4px solid #3fb950; padding: 1rem; margin: 1rem 0; }
     blockquote { border-left: 4px solid var(--accent); margin: 1rem 0; padding: 0.5rem 1rem; background: var(--code); font-style: italic; }
   </style>
 </head>
@@ -37,66 +35,56 @@
   </nav>
 
   <h1>The #OpenFlaw Showcase</h1>
-  <p>Real-world examples of people and organizations that embody these principles—shipping fast, disclosing flaws, refusing to let imperfections halt progress.</p>
+  <p>Real-world examples of people, software, and organizations that embody these principles—shipping fast, disclosing flaws, refusing to let imperfections halt progress.</p>
 
   <hr>
 
   <h2>🧑‍💼 People</h2>
 
   <h3>Elon Musk</h3>
-  <p><strong>The Flaw:</strong> Publicly admits to making errors while claiming transparency. In February 2025, during DOGE work at the White House, Musk admitted: <em>"Some of the things that I say will be incorrect and should be corrected. Nobody's going to bat 1,000. We will make mistakes, but we'll act quickly to correct any mistakes."</em></p>
-  <p><strong>The Feature:</strong> His willingness to ship (ideas, companies, tweets) despite known flaws creates velocity. SpaceX landed rockets after multiple Falcon 1 failures—each failure was public, documented, and followed by rapid iteration.</p>
-  <p><strong>The #OpenFlaw Verdict:</strong> He declares his flaws publicly (sometimes), ships at unprecedented speed, and doesn't let perfectionism halt progress. Controversial, but embodies the "ship anyway" ethos.</p>
+  <p>In February 2025, during DOGE work at the White House, Musk admitted: <em>"Some of the things that I say will be incorrect and should be corrected. Nobody's going to bat 1,000. We will make mistakes, but we'll act quickly to correct any mistakes."</em></p>
+  <p>His willingness to ship despite known flaws creates velocity. SpaceX landed rockets after multiple Falcon 1 failures—each failure was public, documented, and followed by rapid iteration.</p>
 
   <h3>Richard Branson</h3>
-  <p><strong>The Flaw:</strong> Dropped out of school at 16. Failed multiple businesses before Virgin took off. His brand openly embraces this: <em>"Do not be embarrassed by your failures, learn from them and start again."</em></p>
-  <p><strong>The Feature:</strong> Each failure became a story of resilience. Virgin's empire was built on the willingness to try, fail, and try again—publicly.</p>
-  <p><strong>The #OpenFlaw Verdict:</strong> Transparency about failures as marketing is a feature, not a bug. He turned flaws into a personal brand.</p>
+  <p>Dropped out of school at 16. Failed multiple businesses before Virgin. His brand: <em>"Do not be embarrassed by your failures, learn from them and start again."</em> Each failure became a story of resilience.</p>
 
   <h3>Sam Altman</h3>
-  <p><strong>The Flaw:</strong> OpenAI's 2023 board crisis—Altman was ousted, then reinstated. The entire messy process was public. Altman later posted: <em>"I learned a lot from this episode."</em></p>
-  <p><strong>The Feature:</strong> Rather than burying the internal drama, OpenAI published post-mortems. The organization continued shipping GPT-4o, o1, and ChatGPT Search despite the chaos.</p>
-  <p><strong>The #OpenFlaw Verdict:</strong> Corporate transparency about leadership failures—rare in tech. They didn't let the crisis stop development.</p>
+  <p>OpenAI's 2023 board crisis—Altman was ousted, then reinstated. The entire messy process was public. Altman: <em>"I learned a lot from this episode."</em> They published post-mortems and kept shipping GPT-4o, o1, ChatGPT.</p>
 
   <hr>
 
-  <h2>🏢 Organizations</h2>
+  <h2>💻 Software (OpenClaw & Others)</h2>
 
-  <h3>OpenClaw (The Case Study)</h3>
-  <p><strong>The Flaw:</strong> An AI agent with root access to user machines, giving LLMs unprecedented data exposure. China's ministry warned it posed security risks. Security researchers found skills that performed data exfiltration.</p>
-  <p><strong>The Feature:</strong> Instead of pausing development, the team shipped weekly, documented tradeoffs in README, and fixed bugs rapidly. In 73 days (December 2025 – February 2026), it went from weekend project to being acquired by OpenAI.</p>
-  <blockquote>"We will make mistakes, but we'll fix them fast." — the OpenClaw approach</blockquote>
-  <p><strong>The #OpenFlaw Verdict:</strong> The perfect embodiment. The flaw was the feature: shipping a powerful, dangerous tool and openly documenting why it was risky.</p>
+  <h3>OpenClaw (The Torchbearer)</h3>
+  <p>An AI agent with root access to user machines—an inherent flaw. China's ministry warned about security risks. Security researchers found data exfiltration. The team shipped weekly anyway, documented tradeoffs in README, fixed bugs fast.</p>
+  <p>In 73 days (December 2025 – February 2026), it went from weekend project to being acquired by OpenAI.</p>
+  <blockquote>The flaw was the feature: shipping a powerful, dangerous tool and openly documenting why it was risky.</blockquote>
 
   <h3>Linux Kernel</h3>
-  <p><strong>The Flaw:</strong> Linus Torvalds famously said: <em>"Security is important, but it's not more important than having a working system."</em> Kernel vulnerabilities are public, reported, and sometimes left unfixed for years.</p>
-  <p><strong>The Feature:</strong> The kernel ships with known bugs because waiting for perfection would mean no Linux at all. His "no commit access for security people" rant is legendary—Torvalds trusts code review over security theater.</p>
-  <p><strong>The #OpenFlaw Verdict:</strong> "There's no such thing as a perfect kernel." Ships anyway.</p>
-
-  <h3>Tesla</h3>
-  <p><strong>The Flaw:</strong> "Full Self-Driving" is shipped with explicit warnings: <em>"The system may do the wrong thing."</em> Tesla's recalls are handled as over-the-air updates—public, frequent, and sometimes embarrassing.</p>
-  <p><strong>The Feature:</strong> Elon publicly discusses "production hell," battery limitations, and timeline delays. He admits when behind schedule. The cars keep shipping.</p>
-  <p><strong>The #OpenFlaw Verdict:</strong> They don't hide FSD limitations. Users know what they're getting into.</p>
-
-  <h3>Basecamp (37signals)</h3>
-  <p><strong>The Flaw:</strong> Their book <em>REWORK</em> explicitly argues against long development cycles, polish, and "enterprise" features. They champion shipping "minimum viable products."</p>
-  <p><strong>The Feature:</strong> Basecamp's culture is built on transparency: they publish everything—including internal controversies. Their "shape up" methodology embraces imperfect shipping.</p>
-  <p><strong>The #OpenFlaw Verdict:</strong> A company whose entire brand is built on the philosophy that "shipping is a feature."</p>
-
-  <h3>Wikipedia</h3>
-  <p><strong>The Flaw:</strong> Anyone can edit it. It contains biases, errors, and vandalism. These are well-documented limitations.</p>
-  <p><strong>The Feature:</strong> The flaw is the feature: radical openness enables continuous correction. It's one of humanity's most valuable information resources—precisely because it's open.</p>
-  <p><strong>The #OpenFlaw Verdict:</strong> The ultimate showcase. They don't pretend to be perfect. They ship transparency.</p>
+  <p>Linus Torvalds: <em>"Security is important, but it's not more important than having a working system."</em> Kernel vulnerabilities are public, sometimes left unfixed for years. <em>"There's no such thing as a perfect kernel."</em> Ships anyway.</p>
 
   <h3>Docker</h3>
-  <p><strong>The Flaw:</strong> Container privilege escalation vulnerabilities are documented. Docker's security model requires trust. They warn: <em>"Docker containers are not sandboxed."</em></p>
-  <p><strong>The Feature:</strong> They document every known vulnerability publicly, provide security best practices, and ship anyway. Users deploy with eyes open.</p>
-  <p><strong>The #OpenFlaw Verdict:</strong> Transparency about security tradeoffs is built into their documentation.</p>
+  <p>Container privilege escalation vulnerabilities are documented. They warn: <em>"Docker containers are not sandboxed."</em> They document every known vulnerability publicly and ship anyway.</p>
+
+  <h3>Basecamp (37signals)</h3>
+  <p>Their book <em>REWORK</em> argues against long development cycles. They champion shipping "minimum viable products."</p>
+
+  <hr>
+
+  <h2>🏛️ Organizations (Non-Software)</h2>
+
+  <h3>Tesla</h3>
+  <p>Cars shipped with known limitations. "Full Self-Driving" includes warnings: <em>"The system may do the wrong thing."</em> Recalls handled as over-the-air updates—public and frequent.</p>
+
+  <h3>Wikipedia</h3>
+  <p>The encyclopedia anyone can edit. Flaws (errors, biases, vandalism) are documented. Yet it's one of humanity's most valuable information resources—because radical openness enables continuous correction.</p>
+
+  <h3>The US Government (DOGE)</h3>
+  <p>The Department of Government Efficiency publicly publishes findings, admits mistakes, and moves fast. Musk: <em>"We will make mistakes, but we'll act quickly to correct any mistakes."</em> #OpenFlaw in government.</p>
 
   <hr>
 
   <h2>The Pattern</h2>
-  <p>Every #OpenFlaw example shares these traits:</p>
   <ol>
     <li><strong>They ship anyway.</strong> Perfection is not the goal—utility is.</li>
     <li><strong>They document the flaws.</strong> README files, public warnings, blog posts.</li>
