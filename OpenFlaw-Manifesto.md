@@ -99,44 +99,47 @@ Traditional: "Creative professional with unique vision."
 
 ## Part IV: The #OpenFlaw Showcase
 
-*Real-world examples of people and organizations that embody these principles*
+*Real-world examples of people and organizations that embody these principles—shipping fast, disclosing flaws, refusing to let imperfections halt progress.*
 
 ### 🧑‍💼 People
 
 **Elon Musk**
-The quintessential #OpenFlaw practitioner. Musk openly discusses his impulsivity—"I tend to move too fast" is a recurring admission. He ships rockets with known failure modes, openly tweets about production hell, and admits when projects are behind schedule. His flaw (rushing) is also his feature (speed). SpaceX landed rockets that everyone said was impossible—not because he hid the challenges, but because he pursued them anyway.
+The quintessential #OpenFlaw practitioner. In February 2025, during DOGE work at the White House, Musk admitted: *"Some of the things that I say will be incorrect and should be corrected. Nobody's going to bat 1,000. We will make mistakes, but we'll act quickly to correct any mistakes."* His willingness to ship (ideas, companies, tweets) despite known flaws creates velocity. SpaceX landed rockets after multiple Falcon 1 failures—each failure was public, documented, and followed by rapid iteration. He declares his flaws publicly, ships at unprecedented speed, and doesn't let perfectionism halt progress.
 
 **Richard Branson**
-Virgin's founder built an empire by openly admitting he dropped out of school, failed repeatedly, and leveraged those experiences. "Do not be embarrassed by your failures," he writes, "learn from them and start again." His personal brand is built on transparency about what he doesn't know, paired with the drive to figure it out anyway.
+Dropped out of school at 16. Failed multiple businesses before Virgin took off. His brand openly embraces this: *"Do not be embarrassed by your failures, learn from them and start again."* Each failure became a story of resilience. His transparency about failures as marketing is a feature, not a bug.
 
-**Kanye West**
-Regardless of controversy, Kanye has openly discussed his mental health, creative process, and erratic behavior—treating his neurodivergence as integral to his artistic output. "My music is my therapy," he has said. The flaw-as-feature principle embodied in its most radical form.
+**Sam Altman**
+OpenAI's 2023 board crisis—Altman was ousted, then reinstated. The entire messy process was public. Altman later posted: *"I learned a lot from this episode."* Rather than burying the internal drama, OpenAI published post-mortems and continued shipping GPT-4o, o1, and ChatGPT. Corporate transparency about leadership failures—rare in tech.
 
 ### 🏢 Organizations
 
-**Tesla**
-Tesla's approach to recalls and software updates is unprecedented in transparency. Elon publicly discusses production issues, battery limitations, and timeline delays. Tesla's "Full Self-Driving" is shipped with explicit warnings—known limitations, not hidden secrets. Users know what they're getting.
-
-**Basecamp (37signals)**
-Basecamp's culture of "shipping is a feature" and their book "REWORK" champion imperfect action over endless polish. They publicly discuss business decisions, including controversial ones—radical transparency even when it costs them.
-
-**GitHub**
-The home of open source practices transparency at the cultural level. Issues, pull requests, and failures are public by default. The platform itself models what it preaches: disclosure enables collaboration.
-
-**Wikipedia**
-Perhaps the ultimate #OpenFlaw system. Wikipedia openly admits it can be edited by anyone—it has flaws, inaccuracies, biases. And yet it's one of the most valuable information resources humanity has built. The flaw is the feature: radical openness enables continuous improvement.
+**OpenClaw (The Case Study)**
+The perfect embodiment. An AI agent with root access to user machines—an inherent flaw that created real security concerns. China's ministry warned it posed risks. Security researchers found skills performing data exfiltration. Instead of pausing, the team shipped weekly, documented tradeoffs in README, and fixed bugs rapidly. In 73 days (December 2025 – February 2026), it went from weekend project to being acquired by OpenAI. The flaw was the feature: shipping a powerful, dangerous tool and openly documenting why it was risky.
 
 **Linux Kernel**
-Linus Torvalds built the world's largest open-source project on radical transparency. Bug reports, kernel panics, security vulnerabilities—all public. The "there's no such thing as a perfect kernel" mentality enabled an OS that runs everything from Android phones to supercomputers. It ships with known flaws, and that is its strength.
+Linus Torvalds famously said: *"Security is important, but it's not more important than having a working system."* Kernel vulnerabilities are public, reported, and sometimes left unfixed for years. His "no commit access for security people" rant is legendary—Torvalds trusts code review over security theater. *"There's no such thing as a perfect kernel."* Ships anyway.
 
-**WordPress**
-By design, WordPress is "open" to hacking if you don't update it. They could hide this. Instead, they openly push security updates and educate users. The platform's "flaw" (ease of modification = ease of exploitation) is communicated—users know the trade-off.
+**Tesla**
+"Full Self-Driving" is shipped with explicit warnings: *"The system may do the wrong thing."* Tesla's recalls are handled as over-the-air updates—public, frequent, and sometimes embarrassing. Elon publicly discusses "production hell," battery limitations, and timeline delays. They don't hide FSD limitations.
+
+**Basecamp (37signals)**
+Their book *REWORK* explicitly argues against long development cycles, polish, and "enterprise" features. They champion shipping "minimum viable products." Their entire brand is built on transparency: they publish everything—including internal controversies. A company whose culture is "shipping is a feature."
+
+**Wikipedia**
+Anyone can edit it. It contains biases, errors, and vandalism. These are well-documented limitations. The flaw is the feature: radical openness enables continuous correction. It's one of humanity's most valuable information resources—precisely because it's open.
 
 **Docker**
-Containerization revolutionized devops, but Docker openly acknowledges security tradeoffs in its architecture. They ship with known privilege escalation risks documented front-and-center. Users deploy with eyes open.
+Container privilege escalation vulnerabilities are documented. Docker's security model requires trust. They warn: *"Docker containers are not sandboxed."* They document every known vulnerability publicly, provide security best practices, and ship anyway.
 
-**React (Meta)**
-React's approach to breaking changes and deprecations is public, debated openly, and sometimes controversial. Yet it's one of the most trusted front-end libraries because Meta doesn't hide the "why" behind their decisions.
+### The Pattern
+
+Every #OpenFlaw example shares these traits:
+
+1. **They ship anyway.** Perfection is not the goal—utility is.
+2. **They document the flaws.** README files, public warnings, blog posts.
+3. **They fix what they can.** Prioritize high-impact, low-cost fixes.
+4. **They don't let flaws stop them.** The enemy of good is perfect.
 
 ---
 
@@ -164,5 +167,5 @@ You don't need to be perfect. You need to be honest.
 
 ---
 
-*The OpenFlaw Manifesto — Version 1.5*  
+*The OpenFlaw Manifesto — Version 1.6*  
 *Written for the movement that starts now.*
